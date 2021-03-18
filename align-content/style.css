@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(134, 46, 151);
+}
+
+.h1 {
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.h1-stretch {
+  text-align: start;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 170px;
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.flex-start {
+  justify-content: start;
+}
+
+.item {
+  flex: 1;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 5px;
+  background: tomato;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container-stretch {
+  flex-wrap: wrap;
+  display: flex;
+  height: 300px;
+  max-width: 500px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  flex-wrap: wrap;
+  display: flex;
+  height: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.stretch {
+  align-content: stretch;
+}
+
+.flex-start {
+  align-content: flex-start;
+}
+
+.flex-end {
+  align-content: flex-end;
+}
+
+.center {
+  align-content: center;
+}
+
+.space-between {
+	align-content: space-between;
+}
+
+.space-around {
+	align-content: space-around;
+}

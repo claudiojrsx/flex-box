@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(134, 46, 151);
+}
+
+.h1 {
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.item {
+  margin: 5px;
+  padding: 1px;
+  border-radius: 5px;
+  background: tomato;
+  text-align: center;
+  font-size: 1.5em;
+  flex: 1;
+}
+
+.container {
+  max-width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex {
+  display: flex;
+}
+
+.strech {
+    align-content: stretch;
+}
+
+.flex-start {
+    align-content: flex-start;
+}
+
+.flex-end {
+    align-content: flex-end;
+}
